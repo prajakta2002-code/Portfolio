@@ -1,0 +1,52 @@
+ 
+ /*
+:root{
+    --dark-brown:#95642c;
+}
+
+ .container{
+    border: 1px solid rebeccapurple;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    background-color: var(--dark-brown);
+ }
+ .box{
+    border: 2px solid green;
+    background-color: aqua;
+    --dark-brown:#95642c;
+    color:var(--dark-brown);
+
+ }*/
+ .container{
+   border: 3px solid rebeccapurple;
+   background-color: green;
+   height: 500px;
+   width: 500px;
+   display: flex;
+ }
+
+ .box{
+   border: 1px solid aquamarine;
+   background-color: violet;
+   margin: 20px;
+   height: 150px;
+   width: 150px; 
+
+transition: transform 2s ease-in;
+ }
+ .box:hover{
+   /*background-color:black;
+   //transform: rotate(80deg);
+
+ }
+ #hi:hover{
+  transform: rotate(75deg);
+
+ 
+ */
+
+
+ transform: translateX(50px);
+ 
+ }

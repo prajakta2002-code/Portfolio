@@ -1,0 +1,50 @@
+.container{
+    width:100%;
+    height: 215px;
+    background-color: wheat;
+    border: 1px  solid brown;
+}
+.box{
+    border: 2px solid green;
+    background-color: blue  ;
+    width: 180px;
+    height: 212px;
+    animation-name: prajakta;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+    animation-delay: 0.3s;
+   animation-direction: alternate-reverse;
+    
+}
+@keyframes prajakta{
+  /*  from{
+        width:180px;
+    }
+    to{
+        width:1000px;
+    }
+    */
+    0%{
+        width:180px;
+        background-color: aquamarine;
+    }
+    25%{
+        width:440px;
+        background-color: blueviolet;
+
+    }
+    50%{
+        width: 570px;
+        background-color: blue;
+    }
+    75%{
+        width: 660px;
+        background-color: brown;
+    }
+    100%{
+        width: 100%;
+        background-color: crimson;
+
+    }
+}
